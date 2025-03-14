@@ -1,0 +1,137 @@
+p{
+    font-size: large;
+}
+body {
+    background-color: #f4f4f4; 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#About figure  img{
+   
+width: 18pc;
+height: 25pc;
+display: block;
+}
+#About figure figcaption{
+    font-size: small;
+}
+
+nav ul {
+
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ECF0F1; 
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: 1.1rem;
+   
+}
+
+nav ul li a:hover {
+    color: #3498DB; 
+}
+
+
+h2 {
+    color: #2C3E50; 
+    font-size: 2rem;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFFFFF; 
+    border-radius: 8px;
+   
+}
+
+
+footer {
+    background-color: #2C3E50; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #ECF0F1; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    color: #3498DB; 
+}
+
+
+details {
+    background-color: #f9fafb; 
+    padding: 15px;
+    margin: 15px 0;
+   
+}
+
+details summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: alias;
+}
+
+details p {
+    margin-top: 10px;
+    color: #555; 
+}
+
+
+header {
+    background-color: #34495E; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    margin-top: 20px;
+   border-radius: 150px;
+}
+#two{
+    font-size: medium;
+    background-color: #34495E; 
+    
+    
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#two a{
+    color: white;
+    text-decoration: none;
+}
+#two a:hover {
+    color: #3498DB; 
+}
+
+#like a{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 20px;
+    text-decoration: none;
+    color: #34495E;
+}
