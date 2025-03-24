@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Gradesheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">📘 Student Portal</div>
+    </header>
+    
+    <section class="gradesheet-section">
+        <h2>Gradesheet</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Cgpa</th>
+                    <th>Grade</th>
+                    <th>Enrolled</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Ali</td><td>3.0</td><td>B+</td><td>Yes</td></tr>
+                <tr><td>2</td><td>Aisha</td><td>3.5</td><td>A-</td><td>No</td></tr>
+                <tr><td>3</td><td>Omar</td><td>3.2</td><td>B</td><td>Yes</td></tr>
+                <tr><td>4</td><td>Fatima</td><td>3.8</td><td>A</td><td>Yes</td></tr>
+                <tr><td>5</td><td>Hassan</td><td>3.1</td><td>B+</td><td>No</td></tr>
+                <tr><td>6</td><td>Zainab</td><td>3.6</td><td>A-</td><td>Yes</td></tr>
+                
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="form-section">
+        <h2>Add Student Record</h2>
+        <form>
+            <label for="student-name">Name:</label>
+            <input type="text" id="student-name" name="name" required>
+            
+            <label for="student-age">Cgpa:</label>
+            <input type="number" id="student-cgpa" name="cgpa" required>
+            
+            <label for="student-grade">Grade:</label>
+            <select id="student-grade" name="grade">
+                <option value="A">A</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+            </select>
+            
+            
+            <label for="student-dob">Date of Birth:</label>
+            <input type="date" id="student-dob" name="dob">
+            
+            <label for="student-enrolled">Enrolled:</label>
+            <input type="checkbox" id="student-enrolled" name="enrolled">
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section class="report-section">
+        <h2>Report</h2>
+        <p>This page provides a well-structured, user-friendly student gradesheet with an interactive form for adding new records. The table displays diverse data types, including text, numbers, dropdowns, and checkboxes.</p>
+        <p>Semantic HTML elements enhance accessibility, ensuring the page is easy to navigate and interact with. The form includes various input types to facilitate comprehensive student data entry.</p>
+        <p>Styling with CSS creates a modern and visually appealing design, improving readability and user experience. Responsive elements ensure the page functions smoothly on different screen sizes.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Ali. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
