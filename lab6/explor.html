@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="  flex flex-col items-center justify-center bg-gray-200 border-6 ">
+<div class=" flex items-center justify-center bg-gray-200 border-6 m-2">
+    <div class="flex bg-gray-50 p-6 rounded-lg  ">
+      <div class="w-16 h-16 bg-red-500 hover:bg-red-700 . . . rounded-lg p-6  m-3 animate-bounce"></div>
+      <div class="w-16 h-16 bg-blue-500 hover:bg-blue-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+      <div class="w-16 h-16 bg-green-500 hover:bg-green-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+    </div>
+  </div>
+
+  <div class="flex items-center justify-center bg-gray-200 border-6 w-108 h-108 m-3">
+      <div class="flex flex-col bg-gray-50 p-6 rounded-lg  ">
+        <div class="w-16 h-16 bg-red-500 hover:bg-red-700 . . . rounded-lg p-6  m-3 animate-pulse"></div>
+      <div class="w-16 h-16 bg-blue-500 hover:bg-blue-700 . . . rounded-lg p-6 m-3  animate-pulse"></div>
+      <div class="w-16 h-16 bg-green-500 hover:bg-green-700 . . . rounded-lg p-6 m-3  animate-pulse"></div>
+      </div>
+    </div>
+
+    <div class=" flex items-center justify-center bg-gray-200 border-6">
+      <div class="grid grid-cols-3 gap-4 flex bg-gray-50 p-6 rounded-lg  ">
+        <div class="w-16 h-16 bg-red-500 hover:bg-red-700 . . . rounded-lg p-6  m-3 animate-bounce"></div>
+        <div class="w-16 h-16 bg-blue-500 hover:bg-blue-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+        <div class="w-16 h-16 bg-green-500 hover:bg-green-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+        <div class="w-16 h-16 bg-red-500 hover:bg-red-700 . . . rounded-lg p-6  m-3 animate-bounce"></div>
+        <div class="w-16 h-16 bg-blue-500 hover:bg-blue-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+        <div class="w-16 h-16 bg-green-500 hover:bg-green-700 . . . rounded-lg p-6 m-3 animate-bounce"></div>
+        
+      </div>
+    </div> 
+<div class="flex items-center justify-center bg-gray-200 border-6 m-3">
+    <div class="bg-green-300 p-6 h-64 w-32 border-6  m-3"><p>this has padding on all sides</p></div>
+    <div class="bg-green-300 p-6 pl-16 pr-16 h-64 w-32 border-6 m-3"><p>this has extra padding on left and right sides</p></div>
+    <div class="bg-green-300 p-6 h-64 w-32 border-6 m-6"><p>this has  margin on all sides</p></div>
+    <div class="bg-green-300 p-6 h-64 w-32 border-6 m-6 mt-6"><p>this has  extra top margin on all sides</p></div>
+    <div class="bg-green-300 p-6 h-64 w-32 border-6 m-6"><p>this has  width and height on all sides</p></div>
+  </div>
+  <div class="flex items-center justify-center bg-gray-200 border-6 mb-3 ml-3 mr-3">
+    <div class="text-4xl font-bold text-indigo-700">Heading</div>
+    <div class="text-lg text-gray-400 leading-relaxed"><p> This paragraph is styled to have larger text, slightly
+       bold font, and adjusted line spacing. You can use these properties to create 
+      visually appealing content that is easy to read and stands out on the page.</p></div>
+  </div>
+
+  <div class="w-64 h-40 rounded-lg border-4 border-black bg-cover bg-center m-4"
+  style="background-image: url('data:image/jpeg;base64,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');">
+</div>
+
+
+
+  <div class="flex items-center justify-center bg-gray-200 border-6 m-3">
+  <div class="table container">
+    <table class="border border-collapse">
+      <thead class="font-bold bg text-gray-400 text-indigo-500">
+        <tr class="bg-blue-200">
+        <td class="border border-gray-400 p-2">Name</td>
+        <td class="border border-gray-400 p-2">Roll No.</td>
+        <td class="border border-gray-400 p-2">Marks</td>
+      </tr>
+      </thead>
+      <tbody >
+      <tr class="bg-grey-250">
+        <td class="border border-gray-400 p-2">Asjad</td>
+        <td class="border border-gray-400 p-2">006</td>
+        <td class="border border-gray-400 p-2">79</td>
+      </tr>
+      <tr class="bg-grey-250">
+        <td class="border border-gray-400 p-2">Ali</td>
+        <td class="border border-gray-400 p-2">008</td>
+        <td class="border border-gray-400 p-2">79</td>
+      </tr>
+    </tbody>
+    </table>
+
+  </div>
+</div>
+<div class="flex items-center justify-center bg-gray-200 rounded-lg m-3">
+  <button class=" m-4 p-5 rounded-lg group border-indigo-500 hover:bg-yellow-500 hover:shadow-lg hover:border-transparent ... text-white bg-yellow-600">
+    Hover me
+  </button>
+</div>
+<div class="flex items-center justify-center bg-gray-200 rounded-lg m-3  border-2">
+<div class="custom-box" style="width: 220px; background-color: #f2f2f2;">
+  <p class="custom-text" style="color: #1a73e8;">Custom Text with Hex Color</p>
+</div>
+</div>
+
+
+<div class="flex justify-center m-4">
+  <div class="bg-gray-100 hover:bg-gray-300 p-6 text-center rounded-lg">
+    <p class="text-gray-700">Centered text with padding and hover background</p>
+  </div>
+</div>
+  </body>
+</html>
+
